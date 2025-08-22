@@ -1,0 +1,41 @@
+# CODEOWNERS file for product-controller-654
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-qa @Armor-test/dept-api @Armor-test/team-governance
+
+# Directory ownership
+/lib/ @Armor-test/squad-performance @Armor-test/team-logging @Armor-test/squad-frontend
+/pkg/ @Armor-test/grp-integration @Armor-test/dept-automation
+/ui/ @Armor-test/team-core @Armor-test/squad-ml
+/helpers/ @Armor-test/squad-tooling @Armor-test/grp-search @Armor-test/dept-logging
+/assets/ @Armor-test/grp-integration @Armor-test/dept-reporting
+/api/ @Armor-test/dept-reliability @Armor-test/dept-api
+/modules/ @Armor-test/dept-test @Armor-test/unit-devops @Armor-test/grp-ui
+/src/ @Armor-test/grp-search @Armor-test/squad-product
+/data/ @Armor-test/unit-governance @Armor-test/team-logging
+/spec/ @Armor-test/squad-api @Armor-test/squad-qa
+/migrations/ @Armor-test/dept-notifications @Armor-test/grp-api
+/static/ @Armor-test/dept-ui @Armor-test/grp-ui
+/hooks/ @Armor-test/grp-storage @Armor-test/team-reporting
+/docs/ @Armor-test/squad-apps @Armor-test/squad-product @Armor-test/grp-integration
+
+# File type ownership
+*.config @Armor-test/dept-test @Armor-test/dept-automation
+*.cs @Armor-test/team-frontend @Armor-test/team-reporting @Armor-test/dept-security
+*.tf @Armor-test/squad-database @Armor-test/grp-storage @Armor-test/squad-frontend
+*.xml @Armor-test/squad-cache @Armor-test/squad-frontend
+*.rb @Armor-test/team-security @Armor-test/squad-cloud @Armor-test/team-frontend
+*.c @Armor-test/squad-api @Armor-test/squad-qa
+*.go @Armor-test/dept-logging @Armor-test/squad-frontend
+*.scala @Armor-test/dept-billing @Armor-test/dept-notifications @Armor-test/squad-ux
+*.graphql @Armor-test/team-security @Armor-test/team-reporting
+*.jsx @Armor-test/unit-test @Armor-test/squad-performance @Armor-test/dept-automation
+*.rs @Armor-test/team-governance @Armor-test/squad-database @Armor-test/squad-search
+*.sql @Armor-test/dept-billing @Armor-test/dept-notifications
+*.js @Armor-test/squad-reporting @Armor-test/dept-reporting @Armor-test/team-security
+*.ini @Armor-test/dept-automation @Armor-test/squad-search @Armor-test/team-research
+*.properties @Armor-test/dept-test @Armor-test/dept-data
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
